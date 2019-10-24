@@ -22,12 +22,13 @@ int main()
 
 		cout << "please enter Your Choice" << endl;
 		cin >> condition;
+		//When we have taken the input value the system will be cleared or blanked
 		system("cls");
 		int d = 0;    // for taking data
 		if (condition == 1)
 		{
 			cout << "please Insert Node Data :" << endl;
-			cout << " Enter number " << endl;
+			cout << " Enter the input value " << endl;
 			cin >> d;
 			d1.insertNodeAtFirst(d);
 
@@ -43,9 +44,10 @@ int main()
 		{
 			int find;
 			cout << "please Insert data after which node Would added :" << endl;
+			//The data will add after the node that will be inputed
 			cin >> find;
 			cout << "please Insert Node Data :" << endl;
-			cout << " Enter Number " << endl;
+			cout << " Enter value in node " << endl;
 			cin >> d;
 			d1.insertNodeAtSpecific(find, d);
 		}
